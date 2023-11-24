@@ -139,7 +139,7 @@ body{
     align-items: center;
   }
   .anime {
-    border: 1px solid #dddddd36;
+    height: 300px;
     border-radius: 5px;
     padding: 20px;
     margin: 10px;
@@ -306,17 +306,3 @@ body{
   color: white;
   margin: 0 0 100px 0;
 }
-
-
-
-  
-  
-
-
-  
-  
-
-
-
-  
-  
