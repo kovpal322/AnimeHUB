@@ -74,6 +74,43 @@
       </div>
     </div>
 </section>
+<section class="sections">
+<div class="container">
+    <div class="form-container">
+      <h2>Login</h2>
+      <form class="login-form">
+        <div class="form-group">
+          <label for="login-username">Username:</label>
+          <input type="text" id="login-username" name="login-username" required>
+        </div>
+        <div class="form-group">
+          <label for="login-password">Password:</label>
+          <input type="password" id="login-password" name="login-password" required>
+        </div>
+        <div class="form-group">
+          <button type="submit">Login</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="form-container">
+      <h2>Sign Up</h2>
+      <form class="signup-form">
+        <div class="form-group">
+          <label for="signup-username">Username:</label>
+          <input type="text" id="signup-username" name="signup-username" required>
+        </div>
+        <div class="form-group">
+          <label for="signup-password">Password:</label>
+          <input type="password" id="signup-password" name="signup-password" required>
+        </div>
+        <div class="form-group">
+          <button type="submit">Sign Up</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section> 
 <script>
         var xhr = new XMLHttpRequest();
         xhr.open("GET", "backend.php", true);

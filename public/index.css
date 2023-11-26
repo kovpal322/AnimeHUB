@@ -283,6 +283,7 @@ body{
 .menu-item {
   list-style: none;
   text-align: center;
+
 }
 
 .menu-item a {
@@ -293,7 +294,10 @@ body{
 .layoutgrid{
   display: grid;
   grid-template-columns: auto auto auto auto;
+  row-gap: 20px;
   padding: 10px;
+  width: 1000px;
+  padding-left: 15%;
 }
 .kat{
   background-color:#002233;
@@ -304,4 +308,51 @@ body{
   align-self: center;
   color: white;
   margin: 0 0 100px 0;
+}
+
+.form-container {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.form-group input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.form-group button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group input[type="password"] {
+  margin-bottom: 20px;
 }
