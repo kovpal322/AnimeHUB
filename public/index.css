@@ -16,6 +16,9 @@ body{
 .layer2 {
   background-image: url('wave-1.svg');
 }
+.layer4{
+  background-image: url('wave-4.svg');
+}
 .navbar {
     position:relative;
     width: 100%;
@@ -148,13 +151,6 @@ body{
   body{
     margin: 0;
     padding: 0;
-}
-
-.layer1 {
-    background-image: url('wave-header.svg');
-}
-.layer2 {
-  background-image: url('wave-1.svg');
 }
 .layer2 h1{
   padding-top: 8%;
@@ -341,7 +337,7 @@ body{
 .form-group button {
   padding: 10px;
   font-size: 16px;
-  background-color: #4caf50;
+  background-color: #002233;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -355,4 +351,20 @@ body{
 
 .form-group input[type="password"] {
   margin-bottom: 20px;
+}
+.container3 {
+  margin-left: 30%;
+  display: flex;
+  width: 600px;
+}
+.logreg{
+  background-color: #0066FF;
+}
+.layer4 h1{
+  padding-top: 8%;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+  color: #002233;
+  margin: 0;
 }

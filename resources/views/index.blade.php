@@ -74,21 +74,22 @@
       </div>
     </div>
 </section>
-<section class="sections">
-<div class="container">
+<div class="spacer layer4"><h1>Bejelentkezés vagy Regisztráció</h1></div>
+<section class="sections logreg">
+<div class="container3">
     <div class="form-container">
       <h2>Login</h2>
       <form class="login-form">
         <div class="form-group">
-          <label for="login-username">Username:</label>
+          <label for="login-username">Felhasznalonev:</label>
           <input type="text" id="login-username" name="login-username" required>
         </div>
         <div class="form-group">
-          <label for="login-password">Password:</label>
+          <label for="login-password">Jelszó:</label>
           <input type="password" id="login-password" name="login-password" required>
         </div>
         <div class="form-group">
-          <button type="submit">Login</button>
+          <button type="submit">Bejelentkezés</button>
         </div>
       </form>
     </div>
@@ -97,15 +98,15 @@
       <h2>Sign Up</h2>
       <form class="signup-form">
         <div class="form-group">
-          <label for="signup-username">Username:</label>
+          <label for="signup-username">Felhasznalonev:</label>
           <input type="text" id="signup-username" name="signup-username" required>
         </div>
         <div class="form-group">
-          <label for="signup-password">Password:</label>
+          <label for="signup-password">Jelszó:</label>
           <input type="password" id="signup-password" name="signup-password" required>
         </div>
         <div class="form-group">
-          <button type="submit">Sign Up</button>
+          <button type="submit">Regisztráció</button>
         </div>
       </form>
     </div>
